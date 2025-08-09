@@ -1,0 +1,20 @@
+{
+  block {
+    number
+    timestamp
+    logs(filter: {
+      addresses: ["0x0191ae69d05F11C7978cCCa2DE15653BaB509d9a"]
+      topics: [["0x2c03c6df0d03954344db45c40d4facdfa60aaf0e03186fc750db6b83c6bbd1bb"]]
+    }) {
+      account {
+        address
+      }
+      topics
+      data
+      transaction {
+        hash
+      }
+      index
+    }
+  }
+}
