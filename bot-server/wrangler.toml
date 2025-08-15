@@ -1,0 +1,10 @@
+name = "bot-server"
+main = "src/cloudflare-worker.js"
+compatibility_date = "2024-08-15"
+
+[vars]
+TELEGRAM_CHAT_ID=-4606599073
+# wrangler secret put TELEGRAM_BOT_TOKEN
+
+[observability.logs]
+enabled = true
